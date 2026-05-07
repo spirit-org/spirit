@@ -3149,6 +3149,344 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "SPIRIT-components:usb-polarity-TUSB321RWBR"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "usb-polarity-TUSB321RWBR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "SPIRIT-footprints:polarity-usb-TUSB321RWBR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/gpn/tusb321"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "TUSB321RWBR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "RWB0012A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "usb-polarity-TUSB321RWBR_0_1"
+				(polyline
+					(pts
+						(xy -20.32 17.78) (xy -20.32 -17.78)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -20.32 -17.78) (xy 20.32 -17.78)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 20.32 17.78) (xy -20.32 17.78)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 20.32 -17.78) (xy 20.32 17.78)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at -25.4 12.7 0)
+					(length 5.08)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -25.4 7.62 0)
+					(length 5.08)
+					(name "VBUS_DET"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -25.4 2.54 0)
+					(length 5.08)
+					(name "CURRENT_MODE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at -25.4 -2.54 0)
+					(length 5.08)
+					(name "VCONN_FAULT_N"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at -25.4 -7.62 0)
+					(length 5.08)
+					(name "OUT1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at -25.4 -10.16 0)
+					(length 5.08)
+					(name "OUT2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -25.4 -15.24 0)
+					(length 5.08)
+					(name "PORT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 25.4 12.7 180)
+					(length 5.08)
+					(name "ID"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 25.4 7.62 180)
+					(length 5.08)
+					(name "CC1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 25.4 5.08 180)
+					(length 5.08)
+					(name "CC2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 25.4 -2.54 180)
+					(length 5.08)
+					(name "DIR"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 25.4 -15.24 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_names
@@ -3257,6 +3595,16 @@
 			)
 		)
 		(uuid "0a300dd0-cbb7-4cce-9dd0-b21d23a5f3ec")
+	)
+	(text "double check"
+		(exclude_from_sim no)
+		(at 274.32 146.812 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2f24a874-0321-40d8-98e9-5eacd89d73db")
 	)
 	(text "driven based on \"power good\"\nregister from BQ25792 (?)"
 		(exclude_from_sim no)
@@ -3435,8 +3783,20 @@
 		(uuid "f711691b-4b00-41f4-8295-721d106a46f9")
 	)
 	(no_connect
+		(at 256.54 132.08)
+		(uuid "06917f41-b4b9-4fa2-a6cb-558bb74e83a2")
+	)
+	(no_connect
+		(at 205.74 154.94)
+		(uuid "19600c20-15bf-459c-bfaa-d1cee59ef8b0")
+	)
+	(no_connect
 		(at 153.67 133.35)
 		(uuid "2369793b-423d-4828-986d-7417cbe7fc36")
+	)
+	(no_connect
+		(at 205.74 160.02)
+		(uuid "2a4d9910-b98b-4930-9744-61c59c62eafc")
 	)
 	(no_connect
 		(at 153.67 156.21)
@@ -3463,6 +3823,22 @@
 		(uuid "5af2fdf3-f770-41fa-b153-3892f8e302fa")
 	)
 	(no_connect
+		(at 205.74 147.32)
+		(uuid "6e9fb39f-f2b3-4661-9805-ab3bb8d17536")
+	)
+	(no_connect
+		(at 205.74 152.4)
+		(uuid "78691586-a471-415c-862a-e5ebff5bb4bb")
+	)
+	(no_connect
+		(at 205.74 142.24)
+		(uuid "9c4b39aa-fefe-4b71-9f01-47d32b625833")
+	)
+	(no_connect
+		(at 256.54 137.16)
+		(uuid "9c9159b3-7f2c-4e07-9846-f0d8cc6afc79")
+	)
+	(no_connect
 		(at 153.67 135.89)
 		(uuid "a92b244f-4219-41f3-982e-11af502a22a1")
 	)
@@ -3471,12 +3847,20 @@
 		(uuid "b67a2e3e-9dd5-4aa3-86f7-85a69df91494")
 	)
 	(no_connect
+		(at 256.54 139.7)
+		(uuid "bd1d3ade-ef31-4579-9f42-0ad75745a117")
+	)
+	(no_connect
 		(at 153.67 158.75)
 		(uuid "c49bfafc-57b9-4aea-8acb-0945b3e136a0")
 	)
 	(no_connect
 		(at 153.67 151.13)
 		(uuid "c586e240-5646-448d-9f44-09c273d6978b")
+	)
+	(no_connect
+		(at 205.74 137.16)
+		(uuid "ce027eea-5ffd-45fc-9b26-aad6d241ddd9")
 	)
 	(no_connect
 		(at 113.03 181.61)
@@ -10135,6 +10519,28 @@
 			)
 		)
 	)
+	(global_label "5V"
+		(shape input)
+		(at 205.74 132.08 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1999f314-8bea-48cb-83b9-158dd3d927bd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 200.4567 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "RX1-"
 		(shape bidirectional)
 		(at 133.35 54.61 0)
@@ -10351,6 +10757,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MUX POL"
+		(shape bidirectional)
+		(at 256.54 147.32 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "593939a7-0118-4faa-8293-c204ba900358")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 269.2241 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -11530,6 +11958,72 @@
 		)
 	)
 	(symbol
+		(lib_name "GND_3")
+		(lib_id "power:GND")
+		(at 256.54 160.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3a3d26ce-7b78-4214-8f4b-0d6217c2040f")
+		(property "Reference" "#PWR0153"
+			(at 256.54 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 256.54 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 256.54 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 256.54 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 256.54 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2db1523a-f087-437d-8c94-933e6304b8fa")
+		)
+		(instances
+			(project "cm5-carrier"
+				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/4d20c3c8-7f3b-4711-a43f-15c2a08af985"
+					(reference "#PWR0153")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SPIRIT-components:USB-protection-diode-PESD5V0C1USFYL")
 		(at 26.67 48.26 0)
 		(unit 1)
@@ -12208,6 +12702,106 @@
 			(project "cm5-carrier"
 				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/4d20c3c8-7f3b-4711-a43f-15c2a08af985"
 					(reference "#PWR052")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SPIRIT-components:usb-polarity-TUSB321RWBR")
+		(at 231.14 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a7bce756-459a-4273-ade8-aba906728d55")
+		(property "Reference" "U16"
+			(at 231.14 121.92 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "usb-polarity-TUSB321RWBR"
+			(at 231.14 124.46 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "SPIRIT-footprints:polarity-usb-TUSB321RWBR"
+			(at 231.14 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/gpn/tusb321"
+			(at 231.14 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 231.14 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "9"
+			(uuid "a4d20ce3-9cd7-4798-9ca3-059e406bcb7c")
+		)
+		(pin "10"
+			(uuid "b529b750-4f33-4d48-a368-5246e0a07cd9")
+		)
+		(pin "11"
+			(uuid "afec7b88-f79e-45af-a101-b3bdb3b6014b")
+		)
+		(pin "1"
+			(uuid "ded63ce2-4f6e-406c-b7a5-cbc436a1ced1")
+		)
+		(pin "8"
+			(uuid "3e854ee7-9494-4425-b07d-8cc9f4d021c8")
+		)
+		(pin "6"
+			(uuid "3749f263-6089-4593-af8c-1845c989422b")
+		)
+		(pin "7"
+			(uuid "74fc2061-ceea-4936-8172-416e3ba37b72")
+		)
+		(pin "5"
+			(uuid "d50cf183-59a1-4531-896a-120cc26bc000")
+		)
+		(pin "12"
+			(uuid "bc3361a2-e34e-4227-b46f-2dd2b1c6ca32")
+		)
+		(pin "3"
+			(uuid "9f0692a1-f78a-4c56-aade-8dd136a82275")
+		)
+		(pin "2"
+			(uuid "dd79c7fc-8d8d-4cba-b96f-b6b66dd43e0b")
+		)
+		(pin "4"
+			(uuid "78f46217-8b68-4d22-867c-a1d09d541bc5")
+		)
+		(instances
+			(project "cm5-carrier"
+				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/4d20c3c8-7f3b-4711-a43f-15c2a08af985"
+					(reference "U16")
 					(unit 1)
 				)
 			)

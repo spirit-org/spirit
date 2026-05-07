@@ -11492,7 +11492,7 @@
 			(uuid "16747176-bf91-44fa-b8a6-ba731e564b94")
 		)
 		(instances
-			(project ""
+			(project "cm5-carrier"
 				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/59851108-1ec5-49a1-aa9b-d5428f895885"
 					(reference "TP5")
 					(unit 1)
@@ -14861,7 +14861,7 @@
 			(uuid "64b5728f-2387-41e7-86bf-9a3f88c64915")
 		)
 		(instances
-			(project ""
+			(project "cm5-carrier"
 				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/59851108-1ec5-49a1-aa9b-d5428f895885"
 					(reference "L6")
 					(unit 1)
@@ -15230,7 +15230,7 @@
 			(uuid "c82e7c39-b76a-4010-bde5-2380309c3dac")
 		)
 		(instances
-			(project ""
+			(project "cm5-carrier"
 				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/59851108-1ec5-49a1-aa9b-d5428f895885"
 					(reference "SW1")
 					(unit 1)
@@ -15312,7 +15312,7 @@
 			(uuid "362007a0-8dc2-4913-937c-876645ea4708")
 		)
 		(instances
-			(project ""
+			(project "cm5-carrier"
 				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/59851108-1ec5-49a1-aa9b-d5428f895885"
 					(reference "R11")
 					(unit 1)
@@ -15795,7 +15795,7 @@
 			(uuid "c1ce8e6d-2ae6-45a9-8022-5944c625eff3")
 		)
 		(instances
-			(project ""
+			(project "cm5-carrier"
 				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/59851108-1ec5-49a1-aa9b-d5428f895885"
 					(reference "U10")
 					(unit 1)
@@ -16249,7 +16249,7 @@
 			(uuid "68043db0-7022-49b5-92d7-149ca574dfec")
 		)
 		(instances
-			(project ""
+			(project "cm5-carrier"
 				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/59851108-1ec5-49a1-aa9b-d5428f895885"
 					(reference "L5")
 					(unit 1)
@@ -19541,7 +19541,7 @@
 			(uuid "7ff3a27c-018d-4474-84d4-adad9afc0d7d")
 		)
 		(instances
-			(project ""
+			(project "cm5-carrier"
 				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/59851108-1ec5-49a1-aa9b-d5428f895885"
 					(reference "R13")
 					(unit 1)
@@ -19958,7 +19958,7 @@
 			(uuid "05a2ee04-1f99-4917-b5ca-426518d3d019")
 		)
 		(instances
-			(project ""
+			(project "cm5-carrier"
 				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/59851108-1ec5-49a1-aa9b-d5428f895885"
 					(reference "L3")
 					(unit 1)
@@ -20114,7 +20114,7 @@
 			(uuid "3bc5c419-9508-43f8-aa3b-320e82e1fbad")
 		)
 		(instances
-			(project ""
+			(project "cm5-carrier"
 				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/59851108-1ec5-49a1-aa9b-d5428f895885"
 					(reference "D1")
 					(unit 1)
@@ -20985,7 +20985,7 @@
 			(uuid "f8dd19bb-57b4-43fa-90dc-d6bddd5fb9f4")
 		)
 		(instances
-			(project ""
+			(project "cm5-carrier"
 				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/59851108-1ec5-49a1-aa9b-d5428f895885"
 					(reference "F1")
 					(unit 1)
@@ -21253,7 +21253,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "d8eb6af3-a9f6-4aeb-9142-2828c48c0486")
 		(property "Reference" "Q1"
@@ -21311,7 +21311,7 @@
 			(uuid "030d29fa-1fae-4f59-ab02-3aef9391da3d")
 		)
 		(instances
-			(project ""
+			(project "cm5-carrier"
 				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/59851108-1ec5-49a1-aa9b-d5428f895885"
 					(reference "Q1")
 					(unit 1)
@@ -21589,7 +21589,7 @@
 			(uuid "a3284215-ffd7-41ba-b64f-524239b000dc")
 		)
 		(instances
-			(project ""
+			(project "cm5-carrier"
 				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/59851108-1ec5-49a1-aa9b-d5428f895885"
 					(reference "U8")
 					(unit 1)
@@ -22335,7 +22335,7 @@
 			(uuid "c4c9465b-13b0-46c8-ba67-870a3b96eae9")
 		)
 		(instances
-			(project ""
+			(project "cm5-carrier"
 				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/59851108-1ec5-49a1-aa9b-d5428f895885"
 					(reference "R29")
 					(unit 1)
@@ -23733,7 +23733,7 @@
 			(uuid "d7ad45bb-4725-4af4-a7e0-ddc21f36a20f")
 		)
 		(instances
-			(project ""
+			(project "cm5-carrier"
 				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/59851108-1ec5-49a1-aa9b-d5428f895885"
 					(reference "U11")
 					(unit 1)
